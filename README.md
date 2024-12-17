@@ -3,6 +3,10 @@
 
 This is a distilled LoRA based on [SDXL](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0), which enables efficient 4-step image generation. It can be used with the [diffusers](https://github.com/initml/diffusers) pipeline directly.
 
+## Weights Download
+
+Download the lora weights from [here](https://huggingface.co/piuzha/distill_sdxl). Save it to a directory and get its path. 
+
 ## Setup
 To setting up and running, you need first to create a virtual env with at least python3.10 installed and activate it
 
