@@ -63,11 +63,10 @@ We follow  a stand  method to train the stable diffusion model. You can refer to
 
 For example, you can finetune the model with the following command,
 ```
-export MODEL_NAME="runwayml/stable-diffusion-v1-5"
 export dataset_name="lambdalabs/naruto-blip-captions"
 
 accelerate launch --mixed_precision="fp16"  train_text_to_image.py \
-  --pretrained_model_name_or_path=$MODEL_NAME \
+  --model_path=$YOUR_MODEL_PATH \
   --dataset_name=$dataset_name \
   --use_ema \
   --resolution=512 --center_crop --random_flip \

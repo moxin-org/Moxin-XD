@@ -203,11 +203,11 @@ def parse_args():
         "--input_perturbation", type=float, default=0, help="The scale of input perturbation. Recommended 0.1."
     )
     parser.add_argument(
-        "--pretrained_model_name_or_path",
+        "--model_path",
         type=str,
         default=None,
         required=True,
-        help="Path to pretrained model or model identifier from huggingface.co/models.",
+        help="Path to the model",
     )
     parser.add_argument(
         "--revision",
