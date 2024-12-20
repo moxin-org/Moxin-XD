@@ -10,10 +10,10 @@ We adopt a more efficient SD model. Our model architecture is based on the SDv1.
 
 ## Requirements
 
-### Diffusers package
+#### Diffusers package
 Follow the [diffusers](https://huggingface.co/docs/diffusers/en/installation) package to install the environment.
 
-### Mac configuration
+#### Mac configuration
 
 For Mac users, you can still follow the [diffusers](https://huggingface.co/docs/diffusers/en/installation) package to install the environment. As long as you can run the original SD v1.5 model successfully, you can seamlessly replace the original SD v1.5 model with our model. Specifically, to install the environment, you can  follow the instructions below,
 ```
